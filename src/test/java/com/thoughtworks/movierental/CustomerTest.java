@@ -27,15 +27,15 @@ public class CustomerTest {
         Rental rent;
         Movie mov;
 
-        mov = new Movie( "3 Idiots", 0 ); // regular,5
+        mov = new Movie( "3 Idiots", 0 ); // regular
         rent = new Rental( mov , 4 );
         sagar.addRental( rent );
 
-        mov = new Movie( "ABCD", 2 ); // children, 1.5
+        mov = new Movie( "ABCD", 2 ); // children
         rent = new Rental( mov, 1 );
         sagar.addRental( rent );
 
-        mov = new Movie( "Gully Boy", 1 ); // new release, 12
+        mov = new Movie( "Gully Boy", 1 ); // new release
         rent = new Rental( mov, 4 );
         sagar.addRental( rent );
 
